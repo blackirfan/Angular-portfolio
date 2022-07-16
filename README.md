@@ -1,6 +1,6 @@
 # Software Developer Portfolio using Angular ⚡️ 
 ## A clean, beautiful and responsive portfolio template for Developers!
-
+## ng build --output-path docs --base-href github-hosting-project
 <p align="center"> 
   <kbd>
 <img src="./src/assets/images/portfolio.gif"></img>
