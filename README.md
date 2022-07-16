@@ -56,3 +56,6 @@ Generate a Github personal access token using these [Instructions](https://help.
 
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
+
+## Deploy to github site
+- [cmd] ng build --output-path docs --base-href github-hosting-project
