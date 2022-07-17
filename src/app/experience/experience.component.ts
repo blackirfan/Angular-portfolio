@@ -12,22 +12,22 @@ export class ExperienceComponent implements OnInit {
     experience: [
       {
         role: "Full Stack Engineer",
-        company: "Infosys",
+        company: "Synesis IT",
         color: "#3781c2",
-        companylogo: "../../../assets/images/infosys.png",
-        date: "Upcoming",
+        companylogo: "./assets/images/Synesistit.jpg",
+        date: "25-07-2021 - on going",
         // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        desc: "Upcoming Software Enginer Specialist(SES) at Infosys",
+        desc: "Programmer at Synesis IT",
         // descBullets: [
         //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         // ]
       },
       {
-        role: "Computer Science & Engineering",
-        company: "GLA University",
+        role: "RA in Computer Science & Engineering",
+        company: "BUET",
         color: "#3f703f",
-        companylogo: "../../../assets/images/gla.png",
+        companylogo: "./assets/images/buet.png",
         date: "Aug 2016 – Jul 2020",
         desc: "I have completed my 4 year graduation degree in computer science with overall CGPA 8.6",
         // descBullets: [
@@ -36,10 +36,10 @@ export class ExperienceComponent implements OnInit {
         // ]
       },
       {
-        role: "Software Engineer Intern",
-        company: "Innovative Buiness Solutions",
+        role: "IT Officer",
+        company: "GPAD",
         color: "#ff9102",
-        companylogo: "../../../assets/images/ibs.png",
+        companylogo: "./assets/images/gpad.png",
         date: "Jun 2018 – Aug 2018",
         desc: "The 6- Week summer training focused on full-stack web development and helped learn to work in a team",
         },
