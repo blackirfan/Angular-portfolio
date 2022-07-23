@@ -1946,7 +1946,7 @@ class ContactComponent {
     constructor() {
         this.contactInfo = {
             title: "Contact Me ☎️",
-            subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+            subtitle: "If need any information or help,\n please contact me without any hesitation",
             number: "+8801740058331",
             email_address: "irfanhossain2025@gmail.com"
         };
@@ -2065,36 +2065,35 @@ function EducationComponent_div_7_Template(rf, ctx) { if (rf & 1) {
 class EducationComponent {
     constructor() {
         this.timeline = [
-            // {
-            //   heading: "Infosys",
-            //   duration: "Present",
-            //   subtitle: "",
-            //   content: "Upcoming Full stack develover at Infosys!",
-            //   className1: "mar-left",
-            //   className2: "prt_about_learnbox_right"
-            // },
             {
-                heading: "B.Tech - Computer Science & Engineering",
-                duration: "2020",
+                heading: "Second Major - Computer Science & Engineering",
+                duration: "2018",
                 subtitle: "Shahjalal University of Science and Technology, Sylhet",
-                content: "Successfully completed my B.tech in Computer science from SUST, Sylhet.",
+                content: "Successfully completed my Second Major in Computer science & Engineering from SUST, Sylhet.",
+                className1: "mar-left",
+                className2: "prt_about_learnbox_right"
+            },
+            {
+                heading: "B.Sc - Geography & Environment",
+                duration: "2018",
+                subtitle: "Shahjalal University of Science and Technology, Sylhet",
+                content: "Successfully completed my B.Sc in Geography & Environment from SUST, Sylhet.",
                 className1: "mar-right",
                 className2: "prt_about_learnbox_left"
             },
             {
                 heading: "Higher Secondary(12th)",
-                duration: "2016",
-                subtitle: "CBSE Board",
-                content: "Successfully completed my intermediate studies in 2016 from Gyan Deep Sr. Secondary Public School, Shikohabad.\n" +
-                    "Major: PCM.",
+                duration: "2012",
+                subtitle: "Dhaka Board",
+                content: "Successfully completed my HSC in 2012 from Birshrestha Munshi Abdur Rouf Public College, Dhaka.",
                 className1: "mar-left",
                 className2: "prt_about_learnbox_right"
             },
             {
                 heading: "Secondary Stage(10th)",
-                duration: "2014",
-                subtitle: "CBSE Board",
-                content: "Successfully completed my high school studies in 2014 from Georgions Academy, Shikohabad.",
+                duration: "2010",
+                subtitle: "Dhaka Board",
+                content: "Successfully completed my high school studies in 2010 from Dhanmondi Govt. Boys' High School, Dhaka.",
                 className1: "mar-right",
                 className2: "prt_about_learnbox_left"
             }
@@ -2279,16 +2278,15 @@ class ExperienceComponent {
                     color: "#3781c2",
                     companylogo: "./assets/images/Synesistit.jpg",
                     date: "25-07-2021 - on going",
-                    // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     desc: "Programmer at Synesis IT",
                 },
                 {
-                    role: "RA in Computer Science & Engineering",
+                    role: "RA in BUET",
                     company: "BUET",
                     color: "#3f703f",
                     companylogo: "./assets/images/buet.png",
-                    date: "Aug 2016 – Jul 2020",
-                    desc: "I have completed my 4 year graduation degree in computer science with overall CGPA 8.6",
+                    date: "Aug 2019 – Jul 2020",
+                    desc: "I had worked here as a RA in Dhaka Mass Rapid Transit Development Project line 5: (Northern Route) in BUET",
                 },
                 {
                     role: "IT Officer",
@@ -3139,11 +3137,12 @@ class SkillsComponent {
     constructor() {
         this.skillsSection = {
             title: "What I do💁‍♂️",
-            subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+            subTitle: "FULL STACK DEVELOPER and Researcher",
             skills: [
-                "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-                "⚡ Creating application backend in Node, Express & Flask",
-                "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
+                "⚡ Develop highly interactive Front end in Angular and backend in java springboot framework",
+                "⚡ Creating application backend in springboot, Django and laravel",
+                "⚡ Extensive experience on RS and GIS oriented tools and tenchnique",
+                "⚡ Extensive experience on Google Earth Engine, Arc Pro Python scripting,R and Matlab.",
                 "⚡ Integration of third party services such as Firebase/ Heroku/ AWS",
                 "⚡ Experience of working with Computer Vision and NLP projects"
             ]
